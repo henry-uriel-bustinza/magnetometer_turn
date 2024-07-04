@@ -91,9 +91,6 @@ class MainActivity : ComponentActivity(), SensorEventListener {
         }
     }
 
-    override fun onAccuracyChanged(sensor: Sensor, accuracy: Int) {
-        // Not used
-    }
 }
 
 @Composable
